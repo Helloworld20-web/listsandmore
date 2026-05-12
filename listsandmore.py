@@ -23,8 +23,8 @@ d = {"item": "Apple", "price":25, "item2": "Orange", "price2":75}
 d2 = {"item": "Onion", "price":35, "item2": "Grapes", "price2":85}
 print(d["item"])
 print(d["price"])
-print(d["item2"])
-print(d["price2"])
+print(d2["item"])
+print(d2["price"])
 
 #Set
 s1 = {1, 7, 8, 4, 8}
