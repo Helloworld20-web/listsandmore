@@ -25,6 +25,7 @@ print(d["item"])
 print(d["price"])
 print(d2["item"])
 print(d2["price"])
+print(d.get("Orange"))
 
 #Set
 s1 = {1, 7, 8, 4, 8}
@@ -55,8 +56,7 @@ for numbed in numbers:
         print(f"Even Numbers: {numbed}")
 
     else:
-        odd = numbed
-        print(f"Odd Numbers: {odd}")
+        print(f"Odd Numbers: {numbed}")
 
 
 for ranger in range(1,6):
@@ -68,5 +68,4 @@ for ranger in range(1,18):
         print(f"Even Numbers: {ranger}")
 
     else:
-        odd = ranger
-        print(f"Odd Numbers: {odd}")
+        print(f"Odd Numbers: {ranger}")
